@@ -6,7 +6,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
   extended: false
 }));
-
 app.use(express.static('public'));
 
 let tickets = [];
